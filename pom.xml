@@ -9,6 +9,10 @@
 
   <name>curso</name>
 
+  <build>
+    <finalName>${name}</finalName>
+  </build>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -20,6 +24,13 @@
       <version>4.0.1</version> <!-- Use a versão correta -->
       <scope>provided</scope>
     </dependency>
+
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.30</version>
+        <scope>provided</scope>
+      </dependency>
 
   </dependencies>
 </project>
