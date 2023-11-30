@@ -1,0 +1,6 @@
+Using CATALINA_BASE:   "C:\Users\danie\tools\apache-tomcat-9.0.83"
+Using CATALINA_HOME:   "C:\Users\danie\tools\apache-tomcat-9.0.83"
+Using CATALINA_TMPDIR: "C:\Users\danie\tools\apache-tomcat-9.0.83\temp"
+Using JRE_HOME:        "C:\Users\danie\tools\jdk-11.0.0.1"
+Using CLASSPATH:       "C:\Users\danie\tools\apache-tomcat-9.0.83\bin\bootstrap.jar;C:\Users\danie\tools\apache-tomcat-9.0.83\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   ""
