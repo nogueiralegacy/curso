@@ -7,23 +7,16 @@ import java.util.List;
 
 @Data
 public class Curso {
-    private long id;
+    private Long id;
     private String nome;
     private int ano;
     private List<Disciplina> disciplinas;
 
-    public Curso(long id, String nome, int ano) {
+    public Curso(Long id, String nome, int ano) {
         this.id = id;
         this.nome = nome;
-        setAno(ano);
+        this.ano = ano;
         this.disciplinas = new ArrayList<>();
-    }
-
-    public void setAno(int ano) throws IllegalArgumentException {
-        if (ano > 0) {
-            this.ano = ano;
-        }
-        throw new IllegalArgumentException();
     }
 
     public void addDisciplina(Disciplina disciplina) {

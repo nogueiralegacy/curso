@@ -14,6 +14,8 @@ public interface CursoRepository {
      */
     boolean save(Curso curso);
 
+    boolean saveAll(List<Curso> cursos);
+
     /**
      * Recupera da persistência uma entidade de curso pelo seu identificado
      * @param id Identificador da entidade curso
